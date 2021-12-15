@@ -1,10 +1,10 @@
 body {
-    --color-primary: #2b2b2b;
+    --color-primary: #3a3a3a;
     --color-primary-dark: #3f3f3f;
     --color-secondary: #252c6a;
     --color-error: #cc3333;
     --color-success: #4bb544;
-    --border-radius: 4px;
+    --border-radius: 8px;
 
     margin: 0;
     height: 100vh;
@@ -23,7 +23,7 @@ body {
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius);
-    background: #ffffff;
+    background: #222222;
 }
 
 .container,
@@ -47,6 +47,7 @@ body {
 .form__title {
     margin-bottom: 2rem;
     text-align: center;
+    color: white;
 }
 
 .form__message {
@@ -72,15 +73,16 @@ body {
     padding: 0.75rem;
     box-sizing: border-box;
     border-radius: var(--border-radius);
-    border: 1px solid #dddddd;
+    border: 1px solid #3f3f3f;
     outline: none;
-    background: #eeeeee;
+    background: #252525;
+    color: white;
     transition: background 0.2s, border-color 0.2s;
 }
 
 .form__input:focus {
     border-color: var(--color-primary);
-    background: #ffffff;
+    background: #1b1b1b;
 }
 
 .form__input--error {

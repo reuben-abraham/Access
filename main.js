@@ -6,6 +6,9 @@ function validate() {
         window.location.href = "https://reubenabraham-official.medium.com/from-freemium-to-premium-disney-hotstars-transition-to-a-subscriber-only-service-on-tv-89e698e8e7ba";
         return false;
     }
-
+    else {
+        window.alert("Incorrect Password")
+        return false;
+    }
     return true;
 }
